@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1566952631 source:c:\users\junior\documents\git_prog\git_codigo\main.c
+	<stdio.h>
+	<stdlib.h>
+
