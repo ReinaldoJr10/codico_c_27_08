@@ -14,13 +14,15 @@ int primo(int x){
 
 int main()
 {
-	int x,y;
-	printf("Digite um numero primo:\n");
+	int x=1,y;
+	while(x){
+		printf("Digite um numero primo:(zero para sair)\n");
     	scanf("%d",&x);
     	y=primo(x);
 	if(y)
-		printf("o numero eh primo!!!");
+		printf("o numero eh primo!!!\n");
 	else
-		printf("o numero nao eh primo.");
+		printf("o numero nao eh primo.\n");
+	}
     	return 0;
 }
